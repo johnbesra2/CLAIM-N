@@ -1,0 +1,96 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url();
+}
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(0,0,0,1);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255,0,0,0.4);
+
+}
+
+body
+{
+	width: 100%;
+	overflow-x: hidden;
+	font-style: myFirstFont;
+}
+.section1
+{
+	padding: 50px;
+}
+.section1-sec1
+{
+	background-color: black;
+	height: 200px;
+	width: 100%;
+}
+.part1
+{
+    
+    background-size: cover;
+}
+.section2
+{
+	background-color: #0A4279;
+	width: 100%;
+
+	padding:80px 75px;
+}
+.dot {
+    height: 225px;
+    width: 225px;
+    opacity: 1;
+    background-color: #0A4279;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    z-index: 999;
+    top: 1100px;
+    right: -130px;
+}
+.dot2 {
+    height: 355px;
+    width: 355px;
+    opacity: 1;
+    background-color: #A7DA93;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    
+    bottom: -170px;
+    left: -160px;
+}
+.dot3{
+    height: 355px;
+    width: 355px;
+    opacity: 1;
+    background-color: #A7DA93;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    z-index: 9999;
+    bottom: -1500px;
+    left: -160px;
+}
+.part2
+{
+    z-index: 9999;
+}
+
